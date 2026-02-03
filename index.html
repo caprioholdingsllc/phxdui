@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DUI Help Phoenix | Whether You're Facing Your First DUI or Multiple Charges</title>
+    <meta name="description" content="DUI lawyers in Phoenix. First offense, repeat DUI, felony cases. Experienced defense for all charge types in Maricopa County.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            background: linear-gradient(135deg, #7c2d12 0%, #991b1b 100%);
+            color: white;
+            padding: 1rem 2rem;
+        }
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .phone {
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        .hero {
+            background: #991b1b;
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .customer-types {
+            background: #fef2f2;
+            padding: 3rem 2rem;
+            margin: -3rem -2rem 3rem -2rem;
+        }
+        .customer-types h2 {
+            text-align: center;
+            color: #7c2d12;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+        .types-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .type-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            border-top: 4px solid #991b1b;
+        }
+        .type-card h3 {
+            color: #7c2d12;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        .type-card p {
+            color: #666;
+            margin-bottom: 1rem;
+            line-height: 1.7;
+        }
+        .type-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .type-card li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: #666;
+        }
+        .type-card li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #991b1b;
+            font-weight: bold;
+        }
+        .services-section {
+            margin: 3rem 0;
+        }
+        .services-section h2 {
+            color: #7c2d12;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        .service-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 3px solid #991b1b;
+        }
+        .service-card h3 {
+            color: #7c2d12;
+            margin-bottom: 0.75rem;
+        }
+        .service-card p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+        .court-note {
+            background: #fef3c7;
+            border-left: 4px solid #fbbf24;
+            padding: 1.5rem;
+            border-radius: 4px;
+            margin: 3rem 0;
+        }
+        .court-note h3 {
+            color: #92400e;
+            margin-bottom: 0.75rem;
+        }
+        .court-note p {
+            color: #78350f;
+            line-height: 1.7;
+        }
+        .form-section {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            max-width: 700px;
+            margin: 3rem auto;
+        }
+        .form-section h2 {
+            color: #7c2d12;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            text-align: center;
+        }
+        .form-section .subtitle {
+            color: #666;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-family: inherit;
+        }
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #991b1b;
+        }
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+        .submit-btn {
+            background: linear-gradient(135deg, #7c2d12 0%, #991b1b 100%);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 4px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+        }
+        .submit-btn:hover {
+            opacity: 0.95;
+        }
+        .footer {
+            background: #2c3e50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">DUI Help Phoenix</div>
+            <div class="phone">📞 (623) 323-8664</div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Whether You're Facing Your First DUI or Multiple Charges</h1>
+        <p>Experienced DUI defense for all charge types in Phoenix and Maricopa County.</p>
+    </section>
+
+    <div class="container">
+        <section class="customer-types">
+            <h2>We Handle All DUI Cases</h2>
+            <div class="types-grid">
+                <div class="type-card">
+                    <h3>First-Time DUI</h3>
+                    <p>If this is your first DUI arrest, you're facing serious consequences but also have the most options for defense and mitigation.</p>
+                    <ul>
+                        <li>Challenge BAC test results</li>
+                        <li>Question stop legality</li>
+                        <li>Negotiate reduced charges</li>
+                        <li>Minimize license suspension</li>
+                        <li>Avoid jail time if possible</li>
+                    </ul>
+                </div>
+
+                <div class="type-card">
+                    <h3>Second DUI</h3>
+                    <p>A second offense carries mandatory jail time and longer license revocation. Aggressive defense is critical.</p>
+                    <ul>
+                        <li>Challenge prior conviction validity</li>
+                        <li>Fight current charges vigorously</li>
+                        <li>Minimize mandatory jail time</li>
+                        <li>Work toward restricted license</li>
+                        <li>Protect employment and livelihood</li>
+                    </ul>
+                </div>
+
+                <div class="type-card">
+                    <h3>Felony DUI (Third or More)</h3>
+                    <p>Third offense or aggravated DUI charges are felonies with prison time. You need experienced legal representation immediately.</p>
+                    <ul>
+                        <li>Fight felony charges</li>
+                        <li>Seek charge reduction when possible</li>
+                        <li>Minimize prison exposure</li>
+                        <li>Explore alternative sentencing</li>
+                        <li>Protect future record</li>
+                    </ul>
+                </div>
+
+                <div class="type-card">
+                    <h3>Extreme/Super Extreme DUI</h3>
+                    <p>BAC over .15 or .20 carries enhanced penalties even on first offense. These charges require specialized defense.</p>
+                    <ul>
+                        <li>Challenge breath/blood test accuracy</li>
+                        <li>Question testing procedures</li>
+                        <li>Fight mandatory jail time</li>
+                        <li>Negotiate penalties</li>
+                        <li>Preserve driving privileges</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-section">
+            <h2>DUI Defense Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>DUI Defense</h3>
+                    <p>Challenge charges, suppress evidence, and fight for dismissal or reduction.</p>
+                </div>
+                <div class="service-card">
+                    <h3>License Hearings</h3>
+                    <p>MVD hearing representation to prevent or minimize license suspension.</p>
+                </div>
+                <div class="service-card">
+                    <h3>BAC Test Challenges</h3>
+                    <p>Question breathalyzer calibration, blood draw procedures, and test reliability.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Field Sobriety Defense</h3>
+                    <p>Challenge field sobriety test administration and interpretation.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Plea Negotiations</h3>
+                    <p>Negotiate reduced charges, alternative sentencing, and minimal penalties.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Trial Representation</h3>
+                    <p>Full trial defense when taking your case to court is the best option.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="court-note">
+            <h3>⚖️ Maricopa County DUI Cases</h3>
+            <p><strong>First Offense Penalties:</strong> Minimum 1 day jail (often 10 days), $1,250+ fines, license suspension, ignition interlock, alcohol classes. <strong>Court System:</strong> Phoenix City Court, Scottsdale City Court, or Justice Courts depending on arrest location. Each has different procedures and tendencies. <strong>Timeline:</strong> MVD hearing deadline is 15 days from arrest—act fast. Criminal case typically resolves in 3-6 months. <strong>Important:</strong> Arizona has some of the strictest DUI laws in the country. Even first offenses carry serious consequences.</p>
+        </div>
+
+        <section class="form-section">
+            <h2>Request DUI Consultation</h2>
+            <p class="subtitle">Get legal advice about your DUI case</p>
+            
+            <form id="leadForm" action="https://hook.us2.make.com/gzcbxb8x2e5xph37kjhm48ur4khvh7ir" method="POST">
+                <input type="hidden" name="site_id" value="PHX-DUILAW-001">
+                <input type="hidden" name="market" value="Phoenix">
+                <input type="hidden" name="industry" value="DUI Lawyers">
+                <input type="hidden" name="lead_type" value="Service Request">
+                <input type="hidden" name="source_url" value="duihelphoenix.com">
+                
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="charge_type">Type of Charge *</label>
+                    <select id="charge_type" name="charge_type" required>
+                        <option value="">Select...</option>
+                        <option value="First DUI">First DUI</option>
+                        <option value="Second DUI">Second DUI</option>
+                        <option value="Felony DUI">Felony DUI (Third or More)</option>
+                        <option value="Extreme DUI">Extreme DUI</option>
+                        <option value="Super Extreme DUI">Super Extreme DUI</option>
+                        <option value="Aggravated DUI">Aggravated DUI</option>
+                        <option value="Not Sure">Not Sure</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="arrest_date">Arrest Date (if known)</label>
+                    <input type="text" id="arrest_date" name="arrest_date" placeholder="MM/DD/YYYY">
+                </div>
+
+                <div class="form-group">
+                    <label for="details">Brief Description of Your Case *</label>
+                    <textarea id="details" name="details" required placeholder="Tell us about your DUI arrest..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Request Consultation</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 DUI Help Phoenix. DUI Defense Attorneys.</p>
+    </footer>
+
+    <script>
+        document.getElementById('leadForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            
+            fetch(this.action, {
+                method: 'POST',
+                body: formData,
+                mode: 'no-cors'
+            }).then(() => {
+                window.location.href = 'thanks.html';
+            }).catch(() => {
+                window.location.href = 'thanks.html';
+            });
+        });
+    </script>
+</body>
+</html>
